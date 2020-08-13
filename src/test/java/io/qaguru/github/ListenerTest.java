@@ -43,6 +43,7 @@ public class ListenerTest {
         $(withText("#" + ISSUE)).should(Condition.exist);
     }
 
+
     @Test
     @DisplayName("Пользователь должен иметь возможность найти Issue по номеру")
     public void withNamedBy() {
